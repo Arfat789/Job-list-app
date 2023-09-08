@@ -115,6 +115,8 @@ header{
 
 /* The following code is for main body */
 .job-list-container{
+    overflow-y: auto;
+    
     margin-top: 50px;
     display: flex;
     flex-direction: column;
