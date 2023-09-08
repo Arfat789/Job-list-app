@@ -68,12 +68,12 @@ fetch('./data.json').then(response =>{
               ${element.featured == true ? '<p class="featured">FEATURED</p>' : ''}
             </div>
             <div class="middle-div"><h2>${element.position}</h2></div>
-            <ul class="bottom-div flex">
+            <div class="bottom-div flex">
               <p>${element.postedAt}</p>
               <p>${element.contract}</p>
               <p>${element.location}</p>
             </div>
-            </ul>
+            </div>
             <div class="right-box">
               <div class="filter-box">
                 <p class="addAble">${element.role}</p>
